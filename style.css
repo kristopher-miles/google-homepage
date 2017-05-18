@@ -1,0 +1,172 @@
+#logo{
+	height:92px;
+	width:272px;
+}
+
+#SearchTextBox{
+	font:16px arial, sans-serif;
+	line-height:34px;
+	text-align:center;
+	display:block;
+    text-indent: .5em;
+    text-shadow: none;
+	text-align: left;
+	white-space:nowrap;
+	width:100%;
+	border-style:groove;
+}
+
+#SearchHolder{
+	margin-left:30%;
+	margin-right:30%;
+	padding-bottom: 1.5em;
+	
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	opacity: .95;
+}
+
+#logobox{
+	width:100%;
+	align-content: center;
+		padding-top:190px;
+	padding-bottom:30px;
+	padding-left:40%;
+	
+}
+#ButtonHolder{
+	border:none;
+	display:block;
+	margin:auto;
+	width:100%;
+	text-align: center;
+	padding-left: 31%;
+}
+#Buttons{
+	width:40%;
+	align-items: center;
+}
+
+.button{
+	font-size:13px;
+	font-weight:bold;
+	margin:11px,4px;
+	border-radius: 2px;
+	background-color:#f2f2f2;
+	text-align: center;
+	min-width:54px;
+	padding:0 16px;
+	height:36px;
+	display:inline-block;
+	line-height:27px;
+	margin-left:.3em;
+	border: 1px solid #f2f2f2;
+	color:757575;
+	opacity: .75;
+}
+
+.button:hover{
+	opacity: .95;
+	border:1px solid grey;
+}
+
+.TopBar{
+	font:13px arial, sans-serif;
+	position:absolute;
+	top:-295px;
+	right:0;
+	width:100%;
+	display:block;
+}
+#TopContent{
+	min-width: 241px;
+	flex:1 1 auto;
+	display:flex;
+	float:right;
+	padding-left: 30px;
+	padding-right: 0px;
+	align-items: center;
+}
+
+.top{
+	display:inline-block;
+	text-align: right;
+	margin:.5em;
+	opacity: .65;
+	line-height: 24px;
+	vertical-align: middle;
+}
+
+.top:hover{
+	opacity: .95;
+}
+
+#Dots{
+	background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	height:30px;
+	width:30px;
+	
+}
+#Bell{
+	background-image: url('http://iconshow.me/media/images/ui/ios7-icons/png/512/bell.png');
+	height:25px;
+	width:30px;
+	background-size:contain;
+}
+
+input[type="button" i]{
+	-webkit-appearance: push-button;
+	white-space: pre;
+	opacity:.75;
+}
+
+
+#BottomNavbar{
+
+	font-size: small;
+
+	display:block;
+	background:#f2f2f2;
+	border-top:1px solid #e4e4e4;
+	line-height: 40px;
+	font-family: arial,sans-serif;
+	margin-top: 2em;
+	bottom:0;
+	left:0;
+	right:0;
+	font-size:10pt;
+	position:absolute;
+	width: 100%;
+}
+
+#LeftNavbarContent{
+	display:inline-block;
+	align-content: center;
+	float:left;
+	padding-left:3em
+}
+
+
+#RightNavbarContent{
+	display:inline-block;
+	align-content: center;
+	float:right;
+	padding-right: 3em;
+	
+}
+
+#BottomNavbar a{
+	padding: 1.5em;
+	padding-bottom: 0;
+	opacity: .65;
+	font-weight: bold;
+}
